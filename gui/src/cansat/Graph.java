@@ -12,7 +12,7 @@ public class Graph extends LineChart {
    public List maxValue = new ArrayList();
    public List minValue = new ArrayList();
    private String[] titles = new String[]{"CanSat Temperature", "Pressure", "Relative Humidity", "Total Acceleration", "X-Y", "X-Z", "Y-Z"};
-   private String[][] axis = new String[][]{{"time (s)", "temperature (C)"}, {"time (s)", "pressure (hPa)"}, {"time (s)", "humidity (%)"}, {"time (s)", "ms^-2"}, {"X Pos (m)", "Y Pos (m)"}, {"X Pos (m)", "Z Pos (m)"}, {"Y Pos (m)", "Z Pos (m)"}};
+   private String[][] axis = new String[][]{{"Time (s)", "Temperature (°C)"}, {"Time (s)", "Pressure (hPa)"}, {"Time (s)", "Humidity (%)"}, {"Time (s)", "ms^-2"}, {"X Pos (m)", "Y Pos (m)"}, {"X Pos (m)", "Z Pos (m)"}, {"Y Pos (m)", "Z Pos (m)"}};
    private String[] seriesNames = new String[]{"Average", "Center", "Bottom", "Front"};
    public boolean updateNow;
    Series series;
