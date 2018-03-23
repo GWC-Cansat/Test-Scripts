@@ -1,0 +1,128 @@
+.root{
+    -fx-background-color: #ffffff;
+}
+
+.Btn{
+  -fx-background-color: #ffffff;
+  -fx-text-fill: #000000;
+  -fx-border-radius: 0 0 0 0;
+  -fx-background-radius: 0 0 0 0;
+}
+
+.Btn:hover{
+	-fx-background-color: #020202;
+	-fx-text-fill: #ffffff;
+}
+
+#btn5{
+      -fx-border-radius: 0 0 0 5;
+      -fx-background-radius: 0 0 0 5;	
+}
+
+#btn9{
+      -fx-border-radius: 0 0 5 0;
+      -fx-background-radius: 0 0 5 0;	
+}
+
+.text-area {
+    -fx-padding: 0px;
+    -fx-border-insets: 0px;
+    -fx-background-insets: 0px;
+    -fx-background-color: white, white, white, white;
+}
+
+.text-area .content {
+    -fx-background-color: white, white, white, white;
+}
+
+.text-area:focused .content {
+    -fx-background-color: white, white, white, white;
+}
+
+.text-area:focused {
+    -fx-highlight-fill: #7ecfff;
+}
+
+.text-area .content {
+    -fx-padding: 10px;
+    -fx-text-fill: gray;
+    -fx-highlight-fill: #7ecfff;
+}
+
+.column{
+    -fx-background-color: transparent;
+}
+
+#hBox2{
+  -fx-background-color: #ffffff;	
+}
+
+.chart {
+  -fx-background-color: transparent;  
+}
+
+.chart-content {
+     -fx-background-color: transparent;     
+}
+
+.chart-symbol {
+    -fx-background-radius: 30px;
+}
+
+
+
+.chart-series-line {  
+    -fx-stroke: transparent;
+	-fx-stroke-width: 2px;
+}
+
+.chart-title {
+  -fx-text-fill: white;
+  -fx-font-size: 1.6em;
+}
+
+
+
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+
+.axis {
+     
+    -fx-tick-label-fill: black;
+ 
+}
+
+ 
+.axis-label {
+  -fx-text-fill: black;
+}
+ 
+.chart-legend {
+   -fx-background-color:  transparent;
+   -fx-padding: 20px;
+}
+ 
+.chart-legend-item-symbol{
+   -fx-background-radius: 0;
+}
+ 
+ 
+.chart-legend-item{
+    -fx-text-fill: black;
+}
+
+.chart-vertical-grid-lines {
+    -fx-stroke: black;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: black;
+}
+
+.chart-line-symbol{
+     -fx-shape: "M0,1 L0,2 L1,2 L1,3 L2,3 L2,2 L3,2 L3,1 L2,1 L2,0 L1,0 L1,2 z";
+    }
+    
+.chart-series-line {
+    -fx-stroke: transparent;
+}
