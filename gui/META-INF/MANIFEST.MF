@@ -1,6 +1,0 @@
-Manifest-Version: 1.0
-Rsrc-Class-Path: ./ RXTXcomm.jar
-Class-Path: .
-Rsrc-Main-Class: serial_test.RS232Example
-Main-Class: org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader
-
